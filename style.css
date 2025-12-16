@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(135deg, #1a1f71, #0f3460);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.player {
+    display: flex;
+    background: #111827;
+    color: #ffffff;
+    width: 420px;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.5);
+}
+
+.album img {
+    width: 120px;
+    height: 120px;
+    border-radius: 12px;
+}
+
+.details {
+    margin-left: 20px;
+    flex: 1;
+}
+
+.details h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.details p {
+    margin: 4px 0 12px;
+    font-size: 13px;
+    color: #9ca3af;
+}
+
+.time {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: #cbd5f5;
+}
+
+.progress {
+    width: 100%;
+    height: 6px;
+    background: #374151;
+    border-radius: 10px;
+    margin: 6px 0 12px;
+}
+
+.progress-fill {
+    width: 35%;
+    height: 100%;
+    background: #38bdf8;
+    border-radius: 10px;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.controls button {
+    background: #1f2933;
+    border: none;
+    color: #38bdf8;
+    padding: 8px 10px;
+    border-radius: 50%;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.play {
+    background: #38bdf8;
+    color: #111827;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.download {
+    background: #22c55e;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 12px;
+    color: white;
+    cursor: pointer;
+}
+
+.count {
+    background: #1f2933;
+    padding: 6px 10px;
+    border-radius: 6px;
+    font-size: 12px;
+}
+
+.icon {
+    background: #1f2933;
+    border: none;
+    color: #38bdf8;
+    padding: 6px 8px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.heart {
+    color: #f43f5e;
+}
